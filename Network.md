@@ -54,8 +54,19 @@ Most online games primarily use UDP, so gains for gaming are usually limited.
 
 ---
 
-## Notes
+# Group policy DSCP marking 
+**Basically it adds a priority mark on each packet sent.**
 
-- These tweaks primarily affect **TCP performance**
-- **UDP-heavy workloads (gaming, VoIP)** will see little to no benefit
-- Always test changes individually; behavior varies by hardware, driver, and network
+Naturally this means that your packets will be delivered first and processed faster.
+
+**Requirements**
+- Must have a QOS compliant router which respects your markings.
+
+I tried it but couldn't feel any difference in latency.
+To enable marking, go to group policy -> User Configuration -> Windows Settings -> Policy-Based Qos 
+
+Right Click and select **create new policy**, give it any name and input 46 as DSCP value which is a decimal representation of EF (expedited forwarding) which is the highest priority.
+
+Rest of the settings are intuitive to setup. 
+
+
