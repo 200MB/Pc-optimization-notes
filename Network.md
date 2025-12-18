@@ -69,4 +69,111 @@ Right Click and select **create new policy**, give it any name and input 46 as D
 
 Rest of the settings are intuitive to setup. 
 
+---
+
+# Wireless vs Wired  
+**Which one is better and which one to choose**
+
+---
+
+## Wired Connection
+
+The **most stable** and **fastest** option available.
+
+- Completely unaffected by radio interference  
+- Lowest possible latency  
+- Ideal for gaming, competitive play, and any latency-sensitive workload  
+
+If you can run a cable, this is always the best choice.
+
+---
+
+## Wireless Connection
+
+Much easier to set up and offers wider coverage, but comes with trade-offs.
+
+- Sensitive to environmental changes  
+- Less stable than wired  
+- Higher and more inconsistent latency  
+
+The two main problems are **congestion** and **interference**.
+
+---
+
+### Congestion vs Interference
+
+- **Congestion**  
+  Too much data flowing through the same network path  
+  - Example: family members streaming, downloading, or uploading heavily  
+
+- **Interference**  
+  Disruptive radio signals from other devices and networks  
+  - Often unavoidable  
+  - Extremely noticeable during gaming  
+
+---
+
+## Wireless Frequencies
+
+Most Wi-Fi networks operate on one of these frequency bands.
+
+---
+
+## 2.4 GHz (Avoid if possible)
+
+The most common frequency and often the default on many routers.
+
+- Extremely sensitive to environmental interference  
+- Very limited channel availability  
+- Poor choice for gaming  
+
+> There is **nothing you can do on your PC** to fully stabilize a bad 2.4 GHz connection.
+
+To gamers still stuck on this band: your pain is real.
+
+---
+
+### Why 2.4 GHz is so bad
+
+- Operates on **only 12 channels**
+- **Only 3 non-overlapping channels**: **1, 6, and 11**
+- If a neighbor uses overlapping channels → **packet loss**
+- You have no control over this
+
+---
+
+### Common 2.4 GHz Interference Sources
+
+- **Other Wi-Fi networks**
+- **Bluetooth devices** (Bluetooth also uses 2.4 GHz)  
+  - Bluetooth headphones + Wi-Fi = local interference  
+- **Microwaves**  
+  - Routers near microwaves will suffer severe disruption  
+
+Standing near or placing a router close to these devices will noticeably degrade performance.
+
+---
+
+## 5 GHz (Strongly Recommended)
+
+If your router and device support it, upgrade immediately.
+
+- Far more stable than 2.4 GHz  
+- Significantly higher throughput  
+- Much lower interference  
+- Gaming becomes almost lag-free  
+
+### Why it’s better
+
+- **165+ channels** available  
+- Much lower chance of sharing channels with neighbors  
+- Less crowded spectrum overall  
+
+The difference between 2.4 GHz and 5 GHz is massive.
+
+---
+
+
+
+
 
