@@ -1,0 +1,12 @@
+TCP Optimzier 
+======================
+Its a software provided by "SpeedGuide" that wraps bunch of registry changes inside one UI.
+Since most settings are TCP related, don't expect any significant (or any) change in UDP connections.
+Gaming for example is mostly UDP. 
+Settings:
+TCP window auto-tuning - Disabled //least possible latency at the cost of throughput.
+Windows scaling heuristics - Disabled //garbage feature which dynamically changes auto-tuning based on your connection stats, its bad.
+Congestion control provider - CTCP/CUBIC/NewReno //This one is kinda significant, for me, NewReno had the least latency related issues. Cubic is mostly for Throughput and CTCP is another alternative for lossy connections
+RSS - Disabled //Parrarelized processing can cause stuttering if your cpu isnt strong enough
+RSC - Disabled //coalescing is another setting to reduce cpu interrupts at the cost of latency.
+ECN capability - Disabled //Its good for lossy connections that struggle with packet loss, but usually most routers wont support it and it added a bit of latency for me during my gaming sessions.
